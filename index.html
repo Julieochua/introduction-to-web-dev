@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Hello world!</title>
+
+	<!-- <link href="/style.css" rel="stylesheet">  -->
+
+	<style>
+		nav {
+			font-size: 40px;
+		}
+
+		#navId{
+			font-size: 60px;
+			color:aqua;
+		}
+
+		.all_navs{
+			font-size: 70px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header style="display:none;"> This is a header </header>
+	<header> helo </header>
+
+	<nav> this is the first navigation </nav>
+
+	<nav style="font-size: 100px;" class="all_navs"> this is second navigation </nav>
+
+	<nav id="navId"> this nav has an id</nav>
+
+	<main> this is the main element </main>
+
+	<main> this is the main element </main>
+
+
+	<section> this is a section of the web page </section>
+
+	<section> this is a section of the web page </section>
+
+
+	<article> This is an article for the webpage </article>
+
+	<article> This is an article for the webpage </article>
+
+
+
+
+
+	<h1> This is a h1 element <h6> this an h2 element </h6>
+	</h1>
+	<p> This is a paragraph. </p> This is a second paragraph </p>
+	</p>
+
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">#</th>
+				<th scope="col">Submitted by</th>
+				<th scope="col">Registration no</th>
+				<th scope="col">First Year</th>
+				<th scope="col">Second Year</th>
+				<th scope="col">Third Year</th>
+				<th scope="col">Fourth Year</th>
+				<th scope="col">Fifth Year</th>
+				<th scope="col">Status</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td> index + 1 </td>
+				<td> deptDues.name </td>
+				<td> deptDues.reg_number </td>
+				<td> deptDues.first_yr </td>
+				<td> deptDues.second_yr </td>
+				<td> deptDues.third_yr </td>
+				<td> deptDues.fourth_yr </td>
+				<td> deptDues.fifth_yr </td>
+				<td> deptDues.status </td>
+			</tr>
+			<tr>
+				<td> index + 1 </td>
+				<td> deptDues.name </td>
+				<td> deptDues.reg_number </td>
+				<td> deptDues.first_yr </td>
+				<td> deptDues.second_yr </td>
+				<td> deptDues.third_yr </td>
+				<td> deptDues.fourth_yr </td>
+				<td> deptDues.fifth_yr </td>
+				<td> deptDues.status </td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h3>List of some IFT students </h3>
+
+	<!-- This is a comment -->
+
+	<ul>
+		<li> Hello </li>
+		<li> Hello </li>
+		<li> Hello </li>
+		<li> Hello </li>
+		<ul> this is another list inside a list
+			<li> World </li>
+			<li>World </li>
+		</ul>
+	</ul>
+
+	<ol>
+		<li> Hello </li>
+		<li> Hello </li>
+		<li> Hello </li>
+		<li> Hello </li>
+		<ol> this is another list inside a list
+			<li> World </li>
+			<li>World </li>
+		</ol>
+	</ol>
+
+	<a href="/fold/secondPage.html" target="_blank"> This is a link </a>
+	<small> This is small </small>
+
+	<span> hello hello </span>
+
+	<form>
+
+		<input placeholder="number" type="number" />
+		<input placeholder="password" type="password" />
+		<input placeholder="text" type="text" />
+		<label id="one">
+			What is the type of foods?
+			<p> Hello world </p>
+		</label>
+		<input placeholder="radio" name="h" value="first testing" type="radio" />
+		<input type="radio" name="h" value="testing" />
+		<input type="checkbox" />
+		<input type="checkbox" />
+		<input type="email" required />
+		<input type="date" />
+
+		<hr />
+		<textarea cols="12" rows="12"> </textarea>
+
+
+		</textarea>
+
+		<br />
+
+
+		<button type="submit" onclick="sayhello()"> This is the submit button </button>
+
+
+	</form>
+
+
+	<footer>
+		<p title="this is a footer"> This is the footer </p>
+	</footer>
+</body>
+
+</html>
+
+<script>
+	function sayhello() {
+		console.log("hello world")
+	}
+</script>
